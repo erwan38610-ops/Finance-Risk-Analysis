@@ -7,22 +7,22 @@ Bienvenue sur mon portfolio de finance quantitative. Ce dépôt regroupe trois p
 ## 🏗️ Structure du Projet
 
 ### 1. Simulation RaRoC (Risk-Adjusted Return on Capital)
-Outil interactif de simulation du risque de crédit permettant d'évaluer la rentabilité des prêts accordés aux entreprises[cite: 3].
-* **Objectif** : Calculer le profit net ajusté au risque en fonction de la probabilité de défaut (PD) et de la perte en cas de défaut (LGD)[cite: 4].
-* **Indicateurs clés** : Revenu d'intérêts, Perte attendue, Profit net[cite: 9, 11, 12].
-* **Tech Stack** : Streamlit, Pandas, Altair[cite: 15].
+Outil interactif de simulation du risque de crédit permettant d'évaluer la rentabilité des prêts accordés aux entreprises.
+* **Objectif** : Calculer le profit net ajusté au risque en fonction de la probabilité de défaut (PD) et de la perte en cas de défaut (LGD).
+* **Indicateurs clés** : Revenu d'intérêts, Perte attendue, Profit net.
+* **Tech Stack** : Streamlit, Pandas, Altair.
 
 ### 2. Simulation Monte Carlo - Risque de Crédit
-Application de gestion des risques pour estimer les pertes potentielles d'un portefeuille de crédits via une approche stochastique[cite: 19, 20].
-* **Objectif** : Modéliser les dépendances gaussiennes entre les crédits (corrélations sectorielles et globales)[cite: 22].
-* **Métriques de risque** : Valeur en Risque (VaR), Expected Shortfall (ES) et Expected Loss[cite: 23].
-* **Tech Stack** : NumPy, SciPy, Pandas[cite: 25].
+Application de gestion des risques pour estimer les pertes potentielles d'un portefeuille de crédits via une approche stochastique.
+* **Objectif** : Modéliser les dépendances gaussiennes entre les crédits (corrélations sectorielles et globales).
+* **Métriques de risque** : Valeur en Risque (VaR), Expected Shortfall (ES) et Expected Loss.
+* **Tech Stack** : NumPy, SciPy, Pandas.
 
 ### 3. Pricing d'Options via Monte Carlo
-Simulateur de valorisation d'options financières basé sur le mouvement brownien géométrique[cite: 29, 32].
-* **Options supportées** : Call/Put Européen, Option Tunnel, Himalaya et Napoléon[cite: 30].
-* **Analyse** : Estimation du prix avec intervalle de confiance à 99% et visualisation de la convergence[cite: 36].
-* **Tech Stack** : NumPy, SciPy, Altair[cite: 37].
+Simulateur de valorisation d'options financières basé sur le mouvement brownien géométrique.
+* **Options supportées** : Call/Put Européen, Option Tunnel, Himalaya et Napoléon.
+* **Analyse** : Estimation du prix avec intervalle de confiance à 99% et visualisation de la convergence.
+* **Tech Stack** : NumPy, SciPy, Altair.
 
 ---
 
