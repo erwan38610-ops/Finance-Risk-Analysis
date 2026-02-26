@@ -7,22 +7,22 @@ Bienvenue sur mon portfolio de finance quantitative. Ce dépôt regroupe trois p
 ## 🏗️ Structure du Projet
 
 ### 1. Simulation RaRoC (Risk-Adjusted Return on Capital)
-Outil interactif de simulation du risque de crédit permettant d'évaluer la rentabilité des prêts accordés aux entreprises.
-* **Objectif** : Calculer le profit net ajusté au risque en fonction de la probabilité de défaut (PD) et de la perte en cas de défaut (LGD).
-* **Indicateurs clés** : Revenu d'intérêts, Perte attendue, Profit net.
-* **Tech Stack** : Streamlit, Pandas, Altair.
+[cite_start]Outil interactif de simulation du risque de crédit permettant d'évaluer la rentabilité des prêts accordés aux entreprises[cite: 3].
+* [cite_start]**Objectif** : Évaluer la rentabilité ajustée au risque en tenant compte de la probabilité de défaut (PD), de la perte en cas de défaut (LGD) et du rendement attendu[cite: 4].
+* [cite_start]**Fonctionnalités** : Calcul automatisé du revenu d'intérêts total, de la probabilité cumulée de défaut, de la perte attendue et du profit net[cite: 9, 10, 11, 12].
+* [cite_start]**Technique** : Traitement de données Excel (feuilles Portfolio et Params) via Pandas et interface dynamique développée sous Streamlit[cite: 5, 15].
 
 ### 2. Simulation Monte Carlo - Risque de Crédit
-Application de gestion des risques pour estimer les pertes potentielles d'un portefeuille de crédits via une approche stochastique.
-* **Objectif** : Modéliser les dépendances gaussiennes entre les crédits (corrélations sectorielles et globales).
-* **Métriques de risque** : Valeur en Risque (VaR), Expected Shortfall (ES) et Expected Loss.
-* **Tech Stack** : NumPy, SciPy, Pandas.
+[cite_start]Application de gestion des risques pour estimer les pertes potentielles d'un portefeuille de crédits via une approche stochastique[cite: 19].
+* [cite_start]**Objectif** : Modéliser les pertes du portefeuille à l'aide d'un modèle de dépendance gaussienne intégrant des corrélations globales et sectorielles entre les crédits[cite: 22].
+* [cite_start]**Métriques de risque** : Calcul et suivi de la Valeur en Risque (VaR), de l'Expected Shortfall (ES) et de la Perte Attendue (Expected Loss)[cite: 23, 24].
+* [cite_start]**Technique** : Simulations statistiques avec NumPy/SciPy et visualisation de la convergence de la perte moyenne avec Altair[cite: 25].
 
 ### 3. Pricing d'Options via Monte Carlo
-Simulateur de valorisation d'options financières basé sur le mouvement brownien géométrique.
-* **Options supportées** : Call/Put Européen, Option Tunnel, Himalaya et Napoléon.
-* **Analyse** : Estimation du prix avec intervalle de confiance à 99% et visualisation de la convergence.
-* **Tech Stack** : NumPy, SciPy, Altair.
+[cite_start]Simulateur de valorisation d'options financières basé sur une modélisation stochastique du prix d'un actif sous-jacent[cite: 29, 31].
+* [cite_start]**Options supportées** : Pricing de Call/Put Européens et d'options exotiques telles que l'Option Tunnel, l'Option Himalaya et l'Option Napoléon[cite: 30].
+* [cite_start]**Méthodologie** : Génération de trajectoires via le mouvement brownien géométrique en prenant en compte le taux sans risque, la volatilité et l'actualisation des payoffs[cite: 32, 34].
+* [cite_start]**Analyse** : Estimation du prix avec un intervalle d'erreur à 99% et suivi dynamique de la convergence du prix moyen[cite: 36].
 
 ---
 
